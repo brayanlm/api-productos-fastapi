@@ -1,0 +1,27 @@
+# Framework Web
+fastapi==0.115.8
+
+# Servidor ASGI
+uvicorn[standard]==0.34.0
+
+# Base de datos
+sqlalchemy==2.0.38
+
+# Driver SQL Server
+pyodbc==5.2.0
+
+# Variables de entorno
+python-dotenv==1.0.1
+
+# Validación de datos (ya viene con FastAPI pero lo incluimos explícitamente)
+pydantic==2.10.6
+
+# Utilidades
+python-multipart==0.0.20
+h11==0.14.0
+click==8.1.8
+starlette==0.45.3
+typing-extensions==4.12.2
+
+# Python estándar (no necesitan instalación)
+# datetime, typing, os son módulos estándar
